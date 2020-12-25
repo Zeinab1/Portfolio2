@@ -1,0 +1,22 @@
+#services {
+    position: relative;
+    margin-left: 300px;
+    padding: 100px 0;
+    background-color: #1f2233;
+    border-bottom: 1px solid #4c4c4b;
+}
+#services .item{
+    color: #f1f1f1;
+    margin-top: 40px;
+}
+#services .item i {
+    color: #468fc2;
+}
+#services .item h3{
+    font-size: 18px;
+    margin: 20px 0;
+}
+#services .item p {
+    color: #f1f1f19c;
+    font-size: 15px;
+}

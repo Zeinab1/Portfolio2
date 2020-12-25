@@ -1,0 +1,91 @@
+#about{
+    position: relative;
+    margin-left: 300px;
+    background-color: #1f2233;
+    padding: 100px 20px;
+    border-bottom: 1px solid #4c4c4b;
+}
+
+#about .cont p {
+    color: #f1f1f19c;
+    font-size: 15px;
+    width: 90%;
+}
+#about .about-info {
+    margin-top: 20px;
+}
+#about .row {
+    margin: 0 ;
+}
+#about .item  {
+    color: #f1f1f1;
+    padding-top: 20px;
+    margin-top: 25px;
+    position: relative;
+}
+#about .item .title{
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    padding: 2px 4px;
+    width: 75px;
+    /* text-align: center; */
+    font-size: 15px;
+    background-color: #468fc2;
+    border-radius: 5px;
+    box-shadow: rgb(70, 143, 194) 0px 0px 15px 2px;
+    display: none;
+}
+#about .item .title:before{
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 9px solid #468fc2;
+}
+#about .item:hover .title{
+    display: block;
+}
+.item i {
+    font-size: 20px;
+    background: #1C1F2F;
+    margin-right: 10px; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: -1px -2px 5px -3px #fff;
+}
+#about .item h3{
+    display: inline;
+    font-size: 18px;
+}
+#about .item span{
+    background: none;
+    font-size: 16px;
+}
+#about button{
+    position: relative;
+    top: 50px;
+    margin-left: 30px;
+    width: 170px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+#about button a{
+    padding: 10px 0;
+    display: block;
+    color: #303030 !important;
+}
+#about button a span{
+    color: #468fc2;
+}

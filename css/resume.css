@@ -1,0 +1,111 @@
+#resume {
+    position: relative;
+    margin-left: 300px;
+    padding: 100px 0;
+    background-color: #1f2233;
+    border-bottom: 1px solid #4c4c4b;
+}
+#resume h3 {
+    color: #f1f1f1;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#resume h3 i {
+    font-size: 14px;
+    color: #468fc2;
+}
+#resume .item{
+    position: relative;
+}
+#resume .item .student:first-child{
+    margin-top: 30px;
+}
+#resume .item .student{
+    position: relative;
+}
+#resume .item .student .year {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    color: #f1f1f19c;
+}
+#resume .item .student .std-info{
+   margin-left: 50px;
+   padding-left: 20px;
+   /* border-left: 1px solid #468fc2; */
+}
+#resume .item .student .std-info h5{
+    padding-left: 25px;
+    font-size: 15px;
+    position: relative;
+    color: #f1f1f1;
+}
+#resume .item .student .std-info h5:before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    left: -4px;
+    top: 5px;
+    position: absolute;
+    background-color:#468fc2 ;
+    border-radius: 50%;
+    display: inline-block;
+ }
+ #resume .item .student .std-info .info{
+     border-left: 1px solid #468fc2 ;
+     padding-left: 25px;
+     padding-top: 10px;
+ }
+ #resume .item .student .std-info .info h6{
+     font-size: 13px;
+     color: #468fc2;
+ }
+
+ #resume .item .student .std-info .info p {
+     font-size: 14px;
+     color: #f1f1f19c;
+ }
+ #resume ul{
+    margin-top: 50px;
+    margin-left: 70px;
+    list-style-type: none;
+    border-left: 1px solid #468fc2;
+}
+#resume ul .item {
+    padding: 0 25px;
+    margin-top: 15px;
+    height: 50px;
+}
+#resume ul .item h6 {
+    font-size: 13px;
+}
+#resume ul .item .progress{
+    position: relative;
+   height: 5px;
+   background-color: #f1f1f19c;
+   overflow-x: visible !important;
+   overflow-y: visible !important;
+
+}
+#resume ul .item .progress-bar{
+     background-color: #468fc2;
+ } 
+ #resume ul .item .progress-bar span{
+     color:#333333;
+     background-color: #f1f1f1;
+     position: absolute;
+     top: -25px;
+     margin-left: -12.5px;
+ }
+ #resume ul .item .progress-bar span:before{
+     content: '';
+     width: 0;
+     height: 0;
+     border-left: 4px solid transparent;
+     border-right: 4px solid transparent;
+     border-top: 4px solid #f1f1f1;
+     position: absolute;
+     bottom:-3.5px;
+     margin-left: 7px;
+ }

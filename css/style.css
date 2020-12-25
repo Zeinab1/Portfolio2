@@ -1,0 +1,210 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  position: relative;
+  height: 4000px;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0,0,0,.7);
+}
+.image-content .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.3);
+}
+a{
+  text-decoration: none;
+}
+h5{
+  margin: 0 !important;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+/* About */
+
+.cont h2 {
+  font-size: 37px;
+  color: #f1f1f1;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.cont span {
+  padding: 0 5px;
+  background-color: #468fc2;
+  border-radius: 7px 0 0 7px;
+  padding: 0 5px;
+}
+.SmoothyTop {
+  /* position: absolute;
+  right: 0;
+  bottom: 0; */
+  margin-top: 100px;
+  margin-left: 300px;
+  position: relative;
+}
+.SmoothyTop i{
+  color: #468fc2;    
+}
+/************************start aside ************************/
+
+
+aside .bar{
+  /* margin-left: 300px; */
+  position: absolute;
+  cursor: pointer;
+  top:20px;
+  right: -25px;
+  color: #f1f1f1;
+  font-size: 22px;
+  font-weight: bold;  
+}
+
+.image-content{
+  position: relative;
+  margin : 40px auto 0 auto;
+  /* text-align: center; */
+  transition: 0.2s;
+  width : 140px;
+  height: 140px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  overflow: hidden;
+}
+.image-content img {
+  position: relative;
+  width: 160px;
+  height: 100%;
+
+}
+aside h2{
+  text-align: center;
+  margin: 20px 0 40px 0;
+  text-transform: capitalize;
+  color: #f1f1f1b3;
+  font-size: 22px;
+  font-weight: bold;
+}
+.aside-list ul{
+  padding: 0;
+}
+.aside-list ul li{
+  border-top: 1px solid #4c4c4b;
+  list-style: none;
+}
+
+
+/* style of aside icon */
+.aside-list ul li i {
+  padding: 10px ;
+  width: 44px;
+  background: #181b2a;
+  font-size: 22px;
+  color: #f1f1f1;
+  /* background-color: #1e2131; */
+}
+.aside-list ul li i.active-icon {
+  background-color:  #468fc2;
+}
+.aside-list ul li:hover i {
+  background-color: #468fc2;
+  border-radius: 50%;   
+}
+
+
+/* style of aside href */
+.aside-list ul li a {
+  font-size: 18px;
+  padding-left: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #f1f1f19c;
+}
+/* hover for li , use it to change color of a after hover  */
+.aside-list ul li a:hover {
+  color: #468fc2;   
+}
+
+
+
+/************************end aside ************************/
+
+/* style active link inside nav of mobile and aside navbar for large device */
+a.active {
+  color: #468fc2 !important;
+}
+
+
+
+@media (min-width: 768px){
+  nav {
+      display: none !important;
+  }
+}
+@media (max-width: 767px){
+#about .col-lg {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+aside {
+  display: none !important;
+}
+#home,
+#about,
+#services,
+#resume,
+#projects,
+#blogs,
+#contact {
+  margin-left: 0 !important;
+}
+
+
+/* About */
+#about .cont h2 {
+
+  text-align: left;
+}
+.cont h2{
+  margin-bottom: 25px;
+}
+.cont p {
+  width: 100%;
+}
+#about .item i {
+  margin-right: 5px;
+}
+#about .item h3 {
+  font-size: 16px;
+}
+#about .item span {
+  font-size: 12px;
+}
+/* Resume */
+#resume .mb{
+  margin-bottom: 60px;
+}
+}
+/* .main{
+  margin-left: 300px;
+  transition: 0.5s;
+} */

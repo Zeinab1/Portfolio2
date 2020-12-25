@@ -1,0 +1,93 @@
+
+aside {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #262938;
+    color: white;
+    height:100vh;
+    width: 300px;
+    position: fixed;
+    z-index: 3; 
+    top: 0;
+    left: 0;
+    border-right: 1px solid #4c4c4b;
+    
+}
+aside .bar{
+    /* margin-left: 300px; */
+    position: absolute;
+    cursor: pointer;
+    top:20px;
+    right: -25px;
+    color: #f1f1f1;
+    font-size: 22px;
+    font-weight: bold;  
+}
+
+.image-content{
+    position: relative;
+    margin : 40px auto 0 auto;
+    /* text-align: center; */
+    transition: 0.2s;
+    width : 140px;
+    height: 140px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    overflow: hidden;
+}
+.image-content img {
+    position: relative;
+    width: 160px;
+    height: 100%;
+  
+}
+aside h2{
+    text-align: center;
+    margin: 20px 0 40px 0;
+    text-transform: capitalize;
+    color: #f1f1f1b3;
+    font-size: 22px;
+    font-weight: bold;
+}
+.aside-list ul{
+    padding: 0;
+}
+.aside-list ul li{
+    border-top: 1px solid #4c4c4b;
+    list-style: none;
+}
+
+
+/* style of aside icon */
+.aside-list ul li i {
+    padding: 10px ;
+    width: 44px;
+    background: #181b2a;
+    font-size: 22px;
+    color: #f1f1f1;
+    /* background-color: #1e2131; */
+}
+.aside-list ul li i.active-icon {
+    background-color:  #468fc2;
+}
+.aside-list ul li:hover i {
+    background-color: #468fc2;
+    border-radius: 50%;   
+}
+
+
+/* style of aside href */
+.aside-list ul li a {
+    font-size: 18px;
+    padding-left: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #f1f1f19c;
+}
+/* hover for li , use it to change color of a after hover  */
+.aside-list ul li a:hover {
+    color: #468fc2;   
+}
+/* ===================== */
+

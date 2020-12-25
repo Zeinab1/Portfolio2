@@ -1,0 +1,43 @@
+.blog {
+    position: relative;
+    margin-left: 300px;
+    padding: 100px 0;
+    background-color: #1f2233;
+    border-bottom: 1px solid #4c4c4b;
+}
+.card{
+    width: 200x;
+}
+
+#owl-demo .items {
+    margin: 10px;
+    border: 1px solid #f1f1f140;
+    background: #272a3cbd;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s ease-in-out;
+
+}
+#owl-demo .items img{
+    height: 227px;
+    width: 100%;
+    display: block;
+}
+#owl-demo .items p{
+    color: #f1f1f19c;
+    padding: 15px;
+    font-size: 14px;
+    /* background: #272a3cbd; */
+}
+#owl-demo .items h3{
+    text-align: center;
+    /* background-color: #272a3cbd; */
+    color: #f1f1f1;
+    font-size: 15px;
+    padding-bottom: 18px;
+
+}
+/* .owl-carousel .owl-dots .owl-dot.active{
+    background-color: violet;
+} */
